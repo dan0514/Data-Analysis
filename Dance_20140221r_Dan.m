@@ -187,7 +187,7 @@ display 'Choose group(s) to analyze separated by [SPACE]';
 display 'enter [ALL] to analyze all groups';
 i = input(': ','s');
 if strcmp(i,'ALL'); gnamechose = gnameU;
-else k = cellfun(@str2num,(regexp(i,'\s','split')'));
+else k = cellfun(@str2num,(regexp(i,'\s','split','UniformOutput',0)'));
     gnamechose = gnameU(k); 
 end
 % STEP2D: SORT GROUP DISPLAY SEQUENCE
