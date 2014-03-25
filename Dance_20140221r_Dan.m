@@ -2,6 +2,7 @@ function [O] = Dance_20140204r
 %% INSTRUCTION
 % modified from Dance to suit Flame
 % Lined modified by Daniel: 27, 142, 143
+% Edited for Fokr Testing
 
 
 
